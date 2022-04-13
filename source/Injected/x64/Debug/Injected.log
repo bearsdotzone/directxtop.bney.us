@@ -1,0 +1,26 @@
+﻿Build started 6/14/2014 12:09:35 PM.
+     1>Project "C:\Users\Karbon\Desktop\DreamscapeTest\DreamscapeTest\Injected\Injected.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D INJECTED_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Source\DesktopDraw.cpp Source\Main.cpp
+         Main.cpp
+         DesktopDraw.cpp
+     1>Source\DesktopDraw.cpp(118): warning C4305: 'argument' : truncation from '__int64' to 'DWORD'
+     1>Source\DesktopDraw.cpp(118): warning C4309: 'argument' : truncation of constant value
+     1>Source\DesktopDraw.cpp(170): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\DesktopDraw.cpp(262): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\DesktopDraw.cpp(265): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\DesktopDraw.cpp(274): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\DesktopDraw.cpp(277): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Karbon\Desktop\DreamscapeTest\DreamscapeTest\x64\Debug\Handler.dll" /INCREMENTAL /NOLOGO Psapi.lib d3d9.lib uxtheme.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Karbon\Desktop\DreamscapeTest\DreamscapeTest\x64\Debug\Handler.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Karbon\Desktop\DreamscapeTest\DreamscapeTest\x64\Debug\Handler.lib" /MACHINE:X64 /DLL x64\Debug\DesktopDraw.obj
+         x64\Debug\Main.obj
+         ..\..\..\d3dx9.lib
+            Creating library C:\Users\Karbon\Desktop\DreamscapeTest\DreamscapeTest\x64\Debug\Handler.lib and object C:\Users\Karbon\Desktop\DreamscapeTest\DreamscapeTest\x64\Debug\Handler.exp
+     1>DesktopDraw.obj : error LNK2019: unresolved external symbol D3DXCreateTextureFromFileW referenced in function "__int64 __cdecl ListViewWindowProc(struct HWND__ *,unsigned int,unsigned __int64,__int64)" (?ListViewWindowProc@@YA_JPEAUHWND__@@I_K_J@Z)
+     1>C:\Users\Karbon\Desktop\DreamscapeTest\DreamscapeTest\x64\Debug\Handler.dll : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\Karbon\Desktop\DreamscapeTest\DreamscapeTest\Injected\Injected.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.47

@@ -1,0 +1,22 @@
+﻿Build started 6/14/2014 5:37:18 AM.
+     1>Project "C:\Users\Karbon\Desktop\DreamscapeTest\DreamscapeTest\Injected\Injected.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D INJECTED_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\DesktopDraw.cpp Source\Main.cpp
+         Main.cpp
+         DesktopDraw.cpp
+     1>c:\users\karbon\desktop\dreamscapetest\dreamscapetest\injected\source\desktopdraw.cpp(108): warning C4305: 'argument' : truncation from '__int64' to 'DWORD'
+     1>c:\users\karbon\desktop\dreamscapetest\dreamscapetest\injected\source\desktopdraw.cpp(108): warning C4309: 'argument' : truncation of constant value
+     1>c:\users\karbon\desktop\dreamscapetest\dreamscapetest\injected\source\desktopdraw.cpp(151): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\karbon\documents\visual studio 2013\Projects\Project1\Debug\Injected.dll" /INCREMENTAL /NOLOGO Psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\karbon\documents\visual studio 2013\Projects\Project1\Debug\Injected.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\karbon\documents\visual studio 2013\Projects\Project1\Debug\Injected.lib" /MACHINE:X86 /SAFESEH /DLL Debug\DesktopDraw.obj
+         Debug\Main.obj
+         ..\..\..\d3dx9.lib
+     1>DesktopDraw.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library c:\users\karbon\documents\visual studio 2013\Projects\Project1\Debug\Injected.lib and object c:\users\karbon\documents\visual studio 2013\Projects\Project1\Debug\Injected.exp
+         Injected.vcxproj -> c:\users\karbon\documents\visual studio 2013\Projects\Project1\Debug\Injected.dll
+     1>Done Building Project "C:\Users\Karbon\Desktop\DreamscapeTest\DreamscapeTest\Injected\Injected.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.55

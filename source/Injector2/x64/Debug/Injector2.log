@@ -1,0 +1,18 @@
+﻿Build started 6/14/2014 12:09:35 PM.
+     1>Project "C:\Users\Karbon\Desktop\DreamscapeTest\DreamscapeTest\Injector2\Injector2.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Source\Inject.cpp Source\Main.cpp
+         Main.cpp
+         Inject.cpp
+     1>Source\Inject.cpp(38): warning C4305: 'argument' : truncation from '__int64' to 'DWORD'
+     1>Source\Inject.cpp(38): warning C4309: 'argument' : truncation of constant value
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Karbon\Desktop\DreamscapeTest\DreamscapeTest\x64\Debug\DirectXTop.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Karbon\Desktop\DreamscapeTest\DreamscapeTest\x64\Debug\DirectXTop.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Karbon\Desktop\DreamscapeTest\DreamscapeTest\x64\Debug\DirectXTop.lib" /MACHINE:X64 x64\Debug\Inject.obj
+         x64\Debug\Main.obj
+         Injector2.vcxproj -> C:\Users\Karbon\Desktop\DreamscapeTest\DreamscapeTest\x64\Debug\DirectXTop.exe
+     1>Done Building Project "C:\Users\Karbon\Desktop\DreamscapeTest\DreamscapeTest\Injector2\Injector2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.37
